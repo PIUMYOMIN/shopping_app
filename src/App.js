@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import {
   FaAlignRight,
   FaAngleDoubleRight,
@@ -14,6 +14,7 @@ import 'swiper/css';
 import banner from "./asset/banner.png";
 import banner2 from "./asset/banner2.png";
 import banner3 from "./asset/banner3.png";
+import banner4 from "./asset/3.png";
 import bluetooth from "./asset/bluetooth.png";
 import airpods from "./asset/AirPods 3.jpg"
 import headphone from "./asset/headphone.png";
@@ -55,22 +56,22 @@ function App() {
         <div className="max-w-screen-xl lg:flex items-center justify-between mx-auto p-4">
           <div className="flex w-full">
             <div className="flex items-center space-x-3 rtl:space-x-reverse">
-            <div className="flex flex-row gap-1 text-2xl text-white">
-              <FaShopware className="w-8 h-8" />
-              <span className="hidden lg:block">Shopware</span>
-            </div>
-          </div>
-          <div className="w-full">
-            <form className="w-full flex justify-center items-start" onChange={handleChange}>
-              <div className="lg:w-8/12 flex justify-between items-center gap-1">
-                <input type="text" name="" value={search} onChange={e => setSearch(e.target.value)} className="w-full outline-none p-1 bg-transparent border-b text-white" />
-                <button type="submit" className="px-1"><FaSearch className="text-white"/></button>
+              <div className="flex flex-row gap-1 text-2xl text-white">
+                <FaShopware className="w-8 h-8" />
+                <span className="hidden lg:block">Shopware</span>
               </div>
-            </form>
-          </div>
-          <button type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm md:hidden focus:outline-none focus:ring-gray-200 dark:text-gray-700 dark:focus:ring-gray-600" data-collapse-toggle="navbar-dropdown" aria-controls="navbar-dropdown" aria-expanded="false">
-            <FaAlignRight className="w-40 h-40 text-white" onClick={handleToggle} />
-          </button>
+            </div>
+            <div className="w-full">
+              <form className="w-full flex justify-center items-start" onChange={handleChange}>
+                <div className="lg:w-8/12 flex justify-between items-center gap-1">
+                  <input type="text" name="" value={search} onChange={e => setSearch(e.target.value)} className="w-full outline-none p-1 bg-transparent border-b text-white" />
+                  <button type="submit" className="px-1"><FaSearch className="text-white" /></button>
+                </div>
+              </form>
+            </div>
+            <button type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm md:hidden focus:outline-none focus:ring-gray-200 dark:text-gray-700 dark:focus:ring-gray-600" data-collapse-toggle="navbar-dropdown" aria-controls="navbar-dropdown" aria-expanded="false">
+              <FaAlignRight className="w-40 h-40 text-white" onClick={handleToggle} />
+            </button>
           </div>
           <div className={`md:block md:w-auto z-50 ${toggle ? "w-full bg-blue-500 left-0 transition-all duration ease-in-out" : "hidden"}`} id="navbar-dropdown">
             <ul className="flex flex-col lg:justify-center lg:items-center font-medium p-4 md:p-0 mt-4 border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
@@ -106,23 +107,23 @@ function App() {
               modules={[Autoplay, Navigation]}
               spaceBetween={50}
               slidesPerView={1}
-              onSlideChange={()=>{console.log()}}
+              onSlideChange={() => { console.log() }}
               onSwiper={('')}
               autoplay
               navigation={true}
               pagination={{
                 clickable: true,
-               }}
+              }}
               loop={true}
             >
               <SwiperSlide>
-                <img src={banner} alt="" className="object-cover"/>
+                <img src={banner} alt="" className="object-cover" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={banner2} alt="" className="object-cover"/>
+                <img src={banner2} alt="" className="object-cover" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={banner3} alt="" className="object-cover"/>
+                <img src={banner3} alt="" className="object-cover" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -131,43 +132,43 @@ function App() {
               <div className="absolute top-0 right-0 bg-red-400 text-white rounded-bl-2xl text-sm px-3">
                 -50% Off
               </div>
-                <img src={bluetooth} alt=""  className="p-5 hover:scale-105"/>
-                <p className="text-blue-400 hover:text-blue-600">Amplify Oasis Series Portable Bluetooth Speaker</p>
-              </div>
-              <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
-                <img src={airpods} alt=""  className="p-5 hover:scale-105" />
-                <p className="text-blue-400 hover:text-blue-600">Apple AirPods Pro 3</p>
-              </div>
-              <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
-                <img src={headphone} alt=""  className="p-5 hover:scale-105"/>
-                <p className="text-blue-400 hover:text-blue-600">Inted Roar 301 Wireless Headphone</p>
-              </div>
+              <img src={bluetooth} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Amplify Oasis Series Portable Bluetooth Speaker</p>
+            </div>
+            <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
+              <img src={airpods} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Apple AirPods Pro 3</p>
+            </div>
+            <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
+              <img src={headphone} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Inted Roar 301 Wireless Headphone</p>
+            </div>
             <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
               <div className="absolute top-0 right-0 bg-red-400 text-white rounded-bl-2xl text-sm px-3">
                 -15% Off
               </div>
-                <img src={smartwatch} alt=""  className="p-5 hover:scale-105"/>
-                <p className="text-blue-400 hover:text-blue-600">Apple Watch SE 44mm</p>
-              </div>
+              <img src={smartwatch} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Apple Watch SE 44mm</p>
+            </div>
             <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
               <div className="absolute top-0 right-0 bg-red-400 text-white rounded-bl-2xl text-sm px-3">
                 -30% Off
               </div>
-                <img src={gamingphone} alt=""  className="p-5 hover:scale-105"/>
-                <p className="text-blue-400 hover:text-blue-600">Plextone Rx1 Gaming Earphone</p>
-              </div>
-              <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
-                <img src={gamingmouse} alt=""  className="p-5 hover:scale-105"/>
-                <p className="text-blue-400 hover:text-blue-600">Redragon Legend Chroma M990 RGB Gaming Mouse</p>
-              </div>
-              <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
-                <img src={tripod} alt=""  className="p-5 hover:scale-105"/>
-                <p className="text-blue-400 hover:text-blue-600">Ulanzi ST-27 Metal Phone Tripod Mount Clip 2476</p>
-              </div>
-              <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
-                <img src={keyboard} alt=""  className="p-5 hover:scale-105" />
-                <p className="text-blue-400 hover:text-blue-600">Bluetooth Keyboard For Tablet Holder</p>
-              </div>
+              <img src={gamingphone} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Plextone Rx1 Gaming Earphone</p>
+            </div>
+            <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
+              <img src={gamingmouse} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Redragon Legend Chroma M990 RGB Gaming Mouse</p>
+            </div>
+            <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
+              <img src={tripod} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Ulanzi ST-27 Metal Phone Tripod Mount Clip 2476</p>
+            </div>
+            <div className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
+              <img src={keyboard} alt="" className="p-5 hover:scale-105" />
+              <p className="text-blue-400 hover:text-blue-600">Bluetooth Keyboard For Tablet Holder</p>
+            </div>
           </div>
         </div>
       </div>
@@ -295,7 +296,7 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-row gap-2">
           <div className="w-3/12 hidden lg:block">
-            <h4 className="p-2 rounded-b-xl bg-blue-700">Your Choice</h4>
+            <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">Choose Your Prefer</h4>
             <div className="mt-3 shadow-md">
               <h4 className="px-3">Brands</h4>
               <div className=" bg-slate-200 mt-3">
@@ -304,36 +305,36 @@ function App() {
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="apple" className="cursor-pointer">Apple</label>
                       <input type="checkbox" name="" id="apple" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="samsung" className="cursor-pointer">Samsung</label>
                       <input type="checkbox" name="" id="samsung" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="huawei" className="cursor-pointer">Huawei</label>
                       <input type="checkbox" name="" id="huawei" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="nokia" className="cursor-pointer">Nokia</label>
                       <input type="checkbox" name="" id="nokia" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="xiaomi" className="cursor-pointer">Xiaomi</label>
                       <input type="checkbox" name="" id="xiaomi" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="google" className="cursor-pointer">Google Pixel</label>
                       <input type="checkbox" name="" id="google" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="vivo" className="cursor-pointer">Vivo</label>
                       <input type="checkbox" name="" id="vivo" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="oppo" className="cursor-pointer">Oppo</label>
                       <input type="checkbox" name="" id="oppo" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
-                </ul>
+                    </li>
+                  </ul>
                 </form>
               </div>
             </div>
@@ -345,150 +346,246 @@ function App() {
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="airpods" className="cursor-pointer">Air Pods</label>
                       <input type="checkbox" name="" id="airpods" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="smart_watch" className="cursor-pointer">Smart Watch</label>
                       <input type="checkbox" name="" id="smart_watch" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="bluetooth_speaker" className="cursor-pointer">Bluetooth Speaker</label>
                       <input type="checkbox" name="" id="bluetooth_speaker" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="powerbank" className="cursor-pointer">Power Bank</label>
                       <input type="checkbox" name="" id="powerbank" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="tripod" className="cursor-pointer">Mobile/Tablet Tripod</label>
                       <input type="checkbox" name="" id="tripod" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="keyboard" className="cursor-pointer">Mobile/Tablet Keyboard</label>
                       <input type="checkbox" name="" id="keyboard" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
+                    </li>
                     <li className="flex flex-row justify-between items-center px-3">
                       <label htmlFor="stabilizer" className="cursor-pointer">Gimbal Stabilizer</label>
                       <input type="checkbox" name="" id="stabilizer" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-                  </li>
-                </ul>
+                    </li>
+                  </ul>
                 </form>
               </div>
             </div>
-        </div>
-        <div className="lg:w-9/12 bg-slate-200">
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
-            <div className="flex flex-col shadow-lg">
-              <div className="lg:h-80 overflow-hidden">
-                <img src={huawei} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
-              </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Huawei P50 pro <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 lg:px-2.5 lg:py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
-                <div className="text-xs">Color: Black, White</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
+            <div className="mt-3 shadow-md">
+              <h4 className="px-3">Color</h4>
+              <div className=" bg-slate-200 mt-3">
+                <form>
+                  <div className="flex flex-wrap">
+                    <a href="#!">
+                      <span class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Dark</span>
+                    </a>
+                    <a href="#!">
+                      <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">Red</span>
+                    </a>
+                    <a href="#!">
+                      <span class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">Yellow</span>
+                    </a>
+                    <a href="#!">
+                      <span class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">Yellow</span>
+                    </a>
+                    <a href="#!">
+                      <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Purple</span>
+                    </a>
+                    <a href="#!">
+                      <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Pink</span>
+                    </a>
+                  </div>
+                </form>
               </div>
             </div>
+          </div>
+          <div className="lg:w-9/12 bg-slate-200">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
+              <div className="flex flex-col shadow-lg">
+                <div className="lg:h-80 overflow-hidden">
+                  <img src={huawei} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Huawei P50 pro <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 lg:px-2.5 lg:py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
+                  <div className="text-xs">Color: Black, White</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
               <div className="flex flex-col justify-center items-center shadow-lg transition-all duration-100 ease-in-out">
                 <div className="lg:h-80 overflow-hidden">
                   <img src={samsung} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
                 </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Samsung S24 Ultra <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 lg:px-2.5 lg:py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
-                <div className="text-xs">Color: Black, Silver</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Samsung S24 Ultra <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 lg:px-2.5 lg:py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
+                  <div className="text-xs">Color: Black, Silver</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
               </div>
-            </div>
               <div className="flex flex-col shadow-lg transition-all duration-100 ease-in-out">
                 <div className="lg:h-80 overflow-hidden">
                   <img src={xiaomi} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
                 </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Xiaomi 14 Ultra 5G <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
-                <div className="text-xs">Color: Titanium Gray</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Xiaomi 14 Ultra 5G <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
+                  <div className="text-xs">Color: Titanium Gray</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow- transition-all duration-100 ease-in-outlg">
+                <div className="lg:h-80 overflow-hidden">
+                  <img src={vivo} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Vivo x100 Pro Plus <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
+                  <div className="text-xs">Color: Blace, White, Pink</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg transition-all duration-100 ease-in-out">
+                <div className="lg:h-80 overflow-hidden">
+                  <img src={iphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Apple iPhone 15 Pro Max <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
+                  <div className="text-xs">Color: Blace, White, Pink</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg transition-all duration-100 ease-in-outg">
+                <div className="lg:h-80 overflow-hidden">
+                  <img src={nokia} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">1110i Blue White Nokia <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
+                  <div className="text-xs">Color: Gray</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center items-center shadow-lg">
+                <div className="lg:h-80 overflow-hidden">
+                  <img src={oppo} alt="" className="object-fit w-full lg:-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">OPPO Reno6 5G <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
+                  <div className="text-xs">Color: Aurora</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center items-center shadow-lg">
+                <div className="lg:h-80 overflow-hidden">
+                  <img src={google} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Google Pixel 6 Pro <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
+                  <div className="text-xs">Color: Aurora</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center items-center shadow-lg">
+                <div className="lg:h-80 overflow-hidden">
+                  <img src={iphone12} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3 bg-gray-300 w-full">
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">iPhone 12 Pro Max <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
+                  <div className="text-xs">Color: Aurora</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
               </div>
             </div>
-            <div className="flex flex-col shadow- transition-all duration-100 ease-in-outlg">
-              <div className="lg:h-80 overflow-hidden">
-                <img src={vivo} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
-              </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Vivo x100 Pro Plus <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
-                <div className="text-xs">Color: Blace, White, Pink</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
-              </div>
-            </div>
-            <div className="flex flex-col shadow-lg transition-all duration-100 ease-in-out">
-              <div className="lg:h-80 overflow-hidden">
-                <img src={iphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
-              </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Apple iPhone 15 Pro Max <sup className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</sup></h4>
-                <div className="text-xs">Color: Blace, White, Pink</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
-              </div>
-            </div>
-            <div className="flex flex-col shadow-lg transition-all duration-100 ease-in-outg">
-              <div className="lg:h-80 overflow-hidden">
-                <img src={nokia} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
-              </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">1110i Blue White Nokia <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
-                <div className="text-xs">Color: Gray</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center shadow-lg">
-              <div className="lg:h-80 overflow-hidden">
-                <img src={oppo} alt="" className="object-fit w-full lg:-full hover:scale-105 transition duration-400 ease-in-out" />
-              </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">OPPO Reno6 5G <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
-                <div className="text-xs">Color: Aurora</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center shadow-lg">
-              <div className="lg:h-80 overflow-hidden">
-                <img src={google} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
-              </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Google Pixel 6 Pro <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
-                <div className="text-xs">Color: Aurora</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center shadow-lg">
-              <div className="lg:h-80 overflow-hidden">
-                <img src={iphone12} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
-              </div>
-              <div className="px-2 py-3 bg-gray-300 w-full">
-                <h4 className="lg:text-xl text-blue-600 lg:font-semibold">iPhone 12 Pro Max <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
-                <div className="text-xs">Color: Aurora</div>
-                <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-                <small className="text-red-400 line-through ml-2">ks10000</small>
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-center items-center my-5">
+            <div className="flex justify-center items-center my-5">
               <div className="flex flex-row gap-2">
                 <span className="p-1 cursor-pointer">Prev</span>
-              <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">1</span>
-              <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">2</span>
-              <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">3</span>
-              <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">4</span>
-              <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">5</span>
-              <span className="p-1 cursor-pointer">Next</span>
+                <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">1</span>
+                <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">2</span>
+                <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">3</span>
+                <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">4</span>
+                <span className="bg-orange-300 w-8 h-8 p-1 rounded-full text-center hover:bg-orange-400 cursor-pointer">5</span>
+                <span className="p-1 cursor-pointer">Next</span>
+              </div>
+            </div>
+            <div className="w-full lg:my-5">
+              <img src={banner4} alt="" className="object-cover w-full" />
             </div>
           </div>
         </div>
+      </div>
+
+      <div className=" bg-neutral-700">
+        <div className="max-w-screen-xl mx-auto lg:flex justify-between lg:py-14 p-4 text-neutral-400">
+          <div className="my-5">
+            <div className="flex justify-left items-center gap-1 lg:mb-3">
+              <FaShopware className="text-3xl" /> <h4 className="text-2xl">Shopware</h4>
+            </div>
+            <ul>
+              <li>
+                <a href="#!">About us</a>
+              </li>
+              <li>
+                <a href="#!">Rules & Regulations</a>
+              </li>
+              <li>
+                <a href="#!">Security Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div className="my-5">
+            <div className="flex justify-left items-center gap-1 lg:mb-3">
+              <h4 className="text-2xl">Help</h4>
+            </div>
+            <ul>
+              <li>
+                <a href="#!">Questions & Answers</a>
+              </li>
+              <li>
+                <a href="#!">Order System</a>
+              </li>
+              <li>
+                <a href="#!">Reward System</a>
+              </li>
+            </ul>
+          </div>
+          <div className="my-5">
+            <div className="flex justify-left items-center gap-1 lg:mb-3">
+              <h4 className="text-2xl">Services</h4>
+            </div>
+            <ul>
+              <li>
+                <a href="#!">Payments</a>
+              </li>
+              <li>
+                <a href="#!">Delivary</a>
+              </li>
+              <li>
+                <a href="#!">Products</a>
+              </li>
+            </ul>
+          </div>
+          <div className="my-5">
+            <div className="flex justify-left items-center gap-1 lg:mb-3">
+              <h4 className="text-2xl">Contact</h4>
+            </div>
+            <div>
+              <p>124-125 / +05 Block, </p>
+              <p>Illutori, London</p>
+              <p>+01 551215, +1 54515</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className="text-center text-xs border-t border-gray-500 text-gray-400 py-1">Copyright <>&copy;</> 2024. All Rights Reserved.</p>
         </div>
       </div>
     </div>
