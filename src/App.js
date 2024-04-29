@@ -39,6 +39,7 @@ function App() {
   const handleToggle = () => {
     setToggle(!toggle);
     console.log('hit')
+    console.log("testing")
   };
 
   const handleChange = async e => {
