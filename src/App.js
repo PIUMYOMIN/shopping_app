@@ -31,6 +31,7 @@ import iphone from "./asset/Apple-iPhone-15-Pro-Max_-blue-titanium_featured-imag
 import nokia from "./asset/1110i-nokia-mobile-phone.jpg"
 import google from "./asset/716n8eAia+L._AC_UF894,1000_QL80_.jpg"
 import iphone12 from "./asset/iphone-12-pro-max-argent-1_1.webp"
+import ipadPro from "./asset/ipad_pro.png"
 import oppo from "./asset/41f2o1XL3VL.jpg"
 import { Autoplay, Navigation } from "swiper/modules";
 function App() {
@@ -39,8 +40,6 @@ function App() {
 
   const handleToggle = () => {
     setToggle(!toggle);
-    console.log('hit')
-    console.log("testing")
   };
 
   const handleChange = async e => {
@@ -381,29 +380,26 @@ function App() {
                 <form>
                   <div className="flex flex-wrap">
                     <a href="#!">
-                      <span class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Dark</span>
+                      <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Black</span>
                     </a>
                     <a href="#!">
-                      <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">Red</span>
+                      <span className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">Red</span>
                     </a>
                     <a href="#!">
-                      <span class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">Yellow</span>
+                      <span className="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">Yellow</span>
                     </a>
                     <a href="#!">
-                      <span class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">Yellow</span>
+                      <span className="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Purple</span>
                     </a>
                     <a href="#!">
-                      <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Purple</span>
-                    </a>
-                    <a href="#!">
-                      <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Pink</span>
+                      <span className="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Pink</span>
                     </a>
                   </div>
                 </form>
               </div>
             </div>
           </div>
-          <div className="lg:w-9/12 bg-slate-200">
+          <div className="lg:w-9/12 bg-slate-100">
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
               <div className="flex flex-col shadow-lg">
                 <div className="lg:h-80 overflow-hidden">
@@ -465,7 +461,7 @@ function App() {
                   <img src={nokia} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
                 </div>
                 <div className="px-2 py-3 bg-gray-300 w-full">
-                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">1110i Blue White Nokia <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
+                  <h4 className="lg:text-xl text-blue-600 lg:font-semibold">Nokia 1110i <sup className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Second</sup></h4>
                   <div className="text-xs">Color: Gray</div>
                   <span className="lg:text-2xl text-red-500">Ks 450,000</span>
                   <small className="text-red-400 line-through ml-2">ks10000</small>
@@ -518,6 +514,107 @@ function App() {
             </div>
             <div className="w-full lg:my-5">
               <img src={banner4} alt="" className="object-cover w-full" />
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 py-5">
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={smartwatch} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Apple Watch SE 44mm</h4>
+                  <div className="text-xs">Color: Black, White</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={airpods} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Apple AirPods 3 Pro</h4>
+                  <div className="text-xs">Color: Black, Silver</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={gamingphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Plextone Rx1 Gaming Earphone</h4>
+                  <div className="text-xs">Color: Titanium Gray</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={bluetooth} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Amplify Oasis Series Portable Bluetooth Speaker</h4>
+                  <div className="text-xs">Color: Blace, White, Pink</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={headphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Inted Roar 301 Wireless Headphone</h4>
+                  <div className="text-xs">Color: Blace, White, Pink</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={gamingmouse} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Redragon Legend Chroma M990 RGB Gaming Mouse</h4>
+                  <div className="text-xs">Color: Gray</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={keyboard} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Bluetooth Keyboard For Tablet Holder</h4>
+                  <div className="text-xs">Color: Aurora</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={tripod} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">Ulanzi ST-27 Metal Phone Tripod Mount Clip 2476</h4>
+                  <div className="text-xs">Color: Aurora</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
+              <div className="flex flex-col shadow-lg bg-gray-300">
+                <div className="overflow-hidden lg:h-64">
+                  <img src={ipadPro} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+                </div>
+                <div className="px-2 py-3">
+                  <h4 className="text-blue-600 lg:font-semibold">11-inch iPad Pro Wi-Fi 256GB</h4>
+                  <div className="text-xs">Color: Aurora</div>
+                  <span className="lg:text-2xl text-red-500">Ks 450,000</span>
+                  <small className="text-red-400 line-through ml-2">ks10000</small>
+                </div>
+              </div>
             </div>
           </div>
         </div>
