@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/shopping_app/static/css/main.b511b271.css",
-    "main.js": "/shopping_app/static/js/main.53b39247.js",
+    "main.css": "/shopping_app/static/css/main.d64e6914.css",
+    "main.js": "/shopping_app/static/js/main.a2ce574d.js",
     "static/media/banner2.png": "/shopping_app/static/media/banner2.c0fcf50e736803556dda.png",
     "static/media/banner3.png": "/shopping_app/static/media/banner3.1c4dbc6d876e0e4a9b8a.png",
+    "static/media/3.png": "/shopping_app/static/media/3.b526459fff93a7c669c3.png",
     "static/media/bluetooth.png": "/shopping_app/static/media/bluetooth.b5d4c708797b0aa6eb82.png",
-    "static/media/3.png": "/shopping_app/static/media/3.7a7002bd8c21f5957092.png",
     "static/media/iphone-12-pro-max-argent-1_1.webp": "/shopping_app/static/media/iphone-12-pro-max-argent-1_1.a5939a9bb6c7d7988430.webp",
     "static/media/banner.png": "/shopping_app/static/media/banner.81b42c9cf49297051bb1.png",
     "static/media/1110i-nokia-mobile-phone.jpg": "/shopping_app/static/media/1110i-nokia-mobile-phone.d66065cab22501a6a0dd.jpg",
@@ -22,13 +22,14 @@
     "static/media/metal_phone_tripod.png": "/shopping_app/static/media/metal_phone_tripod.80a08f5b930987d61192.png",
     "static/media/huawei-p50-pro-black.jpg": "/shopping_app/static/media/huawei-p50-pro-black.72a6286bb5bc73bc9110.jpg",
     "static/media/smart_watch.png": "/shopping_app/static/media/smart_watch.591c35751abad244a043.png",
+    "static/media/ipad_pro.png": "/shopping_app/static/media/ipad_pro.5d16ca02681383d3a7ff.png",
     "static/media/AirPods 3.jpg": "/shopping_app/static/media/AirPods 3.1af1a46066c3b99d10ad.jpg",
     "index.html": "/shopping_app/index.html",
-    "main.b511b271.css.map": "/shopping_app/static/css/main.b511b271.css.map",
-    "main.53b39247.js.map": "/shopping_app/static/js/main.53b39247.js.map"
+    "main.d64e6914.css.map": "/shopping_app/static/css/main.d64e6914.css.map",
+    "main.a2ce574d.js.map": "/shopping_app/static/js/main.a2ce574d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b511b271.css",
-    "static/js/main.53b39247.js"
+    "static/css/main.d64e6914.css",
+    "static/js/main.a2ce574d.js"
   ]
 }
