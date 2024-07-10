@@ -15,23 +15,12 @@ import tripod from "../asset/metal_phone_tripod.png";
 import keyboard from "../asset/bluetooth_keyboard.png";
 import { Link } from "react-router-dom";
 export default function HeaderCarousel() {
-  return (
-    <div className="w-full lg:py-4">
+  return <div className="w-full lg:py-4">
       <div className="flex lg:flex-row flex-col gap-2">
         <div className="lg:w-1/2 w-full">
-          <Swiper
-            modules={[Autoplay, Navigation]}
-            spaceBetween={50}
-            slidesPerView={1}
-            onSlideChange={() => {
+          <Swiper modules={[Autoplay, Navigation]} spaceBetween={50} slidesPerView={1} onSlideChange={() => {
               console.log();
-            }}
-            onSwiper={""}
-            autoplay
-            navigation={true}
-            pagination={{ clickable: true }}
-            loop={true}
-          >
+            }} onSwiper={""} autoplay navigation={true} pagination={{ clickable: true }} loop={true}>
             <SwiperSlide>
               <img src={banner} alt="" className="object-cover" />
             </SwiperSlide>
@@ -44,10 +33,7 @@ export default function HeaderCarousel() {
           </Swiper>
         </div>
         <div className="lg:w-1/2 w-full grid lg:grid-cols-4 grid-cols-2 gap-3">
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <div className="absolute top-0 right-0 bg-red-400 text-white rounded-bl-2xl text-sm px-3">
               -50% Off
             </div>
@@ -56,28 +42,19 @@ export default function HeaderCarousel() {
               Amplify Oasis Series Portable Bluetooth Speaker
             </p>
           </Link>
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <img src={airpods} alt="" className="p-5 hover:scale-105" />
             <p className="text-blue-400 hover:text-blue-600">
               Apple AirPods Pro 3
             </p>
           </Link>
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <img src={headphone} alt="" className="p-5 hover:scale-105" />
             <p className="text-blue-400 hover:text-blue-600">
               Inted Roar 301 Wireless Headphone
             </p>
           </Link>
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <div className="absolute top-0 right-0 bg-red-400 text-white rounded-bl-2xl text-sm px-3">
               -15% Off
             </div>
@@ -86,10 +63,7 @@ export default function HeaderCarousel() {
               Apple Watch SE 44mm
             </p>
           </Link>
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <div className="absolute top-0 right-0 bg-red-400 text-white rounded-bl-2xl text-sm px-3">
               -30% Off
             </div>
@@ -98,28 +72,19 @@ export default function HeaderCarousel() {
               Plextone Rx1 Gaming Earphone
             </p>
           </Link>
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <img src={gamingmouse} alt="" className="p-5 hover:scale-105" />
             <p className="text-blue-400 hover:text-blue-600">
               Redragon Legend Chroma M990 RGB Gaming Mouse
             </p>
           </Link>
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <img src={tripod} alt="" className="p-5 hover:scale-105" />
             <p className="text-blue-400 hover:text-blue-600">
               Ulanzi ST-27 Metal Phone Tripod Mount Clip 2476
             </p>
           </Link>
-          <Link
-            to="/product-details"
-            className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer"
-          >
+          <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer">
             <img src={keyboard} alt="" className="p-5 hover:scale-105" />
             <p className="text-blue-400 hover:text-blue-600">
               Bluetooth Keyboard For Tablet Holder
@@ -127,6 +92,5 @@ export default function HeaderCarousel() {
           </Link>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 }
