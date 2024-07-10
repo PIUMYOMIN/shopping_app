@@ -248,7 +248,7 @@ export default function Home() {
             </div>
             </div> */}
             {/* pagination end  */}
-          <div className="w-full lg:my-5">
+          <div className="w-full my-5">
             <img src={banner4} alt="" className="object-cover w-full" />
           </div>
           <AccessorySection />

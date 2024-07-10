@@ -43,7 +43,7 @@ export default function Navbar() {
             <FaAlignRight className="w-40 h-40 text-white" onClick={handleToggle} />
           </button>
         </div>
-        <div className={`md:block md:w-auto z-50 ${toggle ? "w-full bg-blue-500 left-0 transition-all duration ease-in-out" : "hidden"}`} id="navbar-dropdown">
+        <div className={`md:block md:w-full z-50 ${toggle ? "w-full bg-blue-500 left-0 transition-all duration ease-in-out" : "hidden"}`} id="navbar-dropdown">
           <ul className="flex flex-col lg:justify-center lg:items-center font-medium p-4 md:p-0 mt-4 border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
               <a href="/shopping_app" className="block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
@@ -52,17 +52,17 @@ export default function Navbar() {
             </li>
             <li>
               <a href="#!" className="block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
-                About
+                Mobile & Tablet
               </a>
             </li>
             <li>
               <a href="#!" className="block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
-                Services
+                Accessories
               </a>
             </li>
             <li>
               <a href="#!" className="block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
-                Contact
+                Electronic
               </a>
             </li>
             <li>
@@ -80,7 +80,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/shopping_app/user" className="relative block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
+              <a href="/shopping_app/login" className="relative block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
                 {" "}<FaRegUserCircle className="w-5 h-5" />{" "}
               </a>
             </li>

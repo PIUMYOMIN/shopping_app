@@ -18,14 +18,14 @@ export default function Login() {
       <div className="lg:grid grid-cols-2 gap-3 my-10 w-full">
         <div className="bg-green-300 p-5 rounded-md">
           <div>
-            <ul className="mb-5 flex list-none flex-row flex-wrap border-b-0 ps-0" role="tablist">
-              <li role="presentation" className="flex-grow basis-0 text-center">
-                <button className={`my-2 block border-x-0 border-b-2 border-t-0 px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight focus:outline-none ${activeTab === "login" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} onClick={() => handleTabClick("login")} role="tab" aria-selected={activeTab === "login"}>
+            <ul className="w-full mb-5 flex list-none flex-row flex-wrap border-b-0 ps-0" role="tablist">
+              <li role="presentation" className={`flex-grow basis-0 text-center cursor-pointer ${activeTab === "login" ? "bg-slate-300" : "bg-transparent"}`} onClick={() => handleTabClick("login")}>
+                <button className={`my-2 block border-x-0 border-t-0 px-7 pb-3.5 pt-4 text-normal font-medium uppercase leading-tight focus:outline-none ${activeTab === "login" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} role="tab" aria-selected={activeTab === "login"}>
                   Login
                 </button>
               </li>
-              <li role="presentation" className="flex-grow basis-0 text-center">
-                <button className={`my-2 block border-x-0 border-b-2 border-t-0 px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight focus:outline-none ${activeTab === "register" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} onClick={() => handleTabClick("register")} role="tab" aria-selected={activeTab === "register"}>
+              <li role="presentation" className={`flex-grow basis-0 text-center cursor-pointer ${activeTab === "register" ? "bg-slate-300" : "bg-transparent"}`} onClick={() => handleTabClick("register")}>
+                <button className={`my-2 block border-x-0 border-t-0 px-7 pb-3.5 pt-4 text-normal font-medium uppercase leading-tight focus:outline-none ${activeTab === "register" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} role="tab" aria-selected={activeTab === "register"}>
                   Register
                 </button>
               </li>
@@ -88,9 +88,7 @@ export default function Login() {
                         </div>
                       </div>
                       <div>
-                        <Link to="#!" className="font-medium">
-                          Forgot Password?
-                        </Link>
+                        <Link to="#!">Forgot Password?</Link>
                       </div>
                     </div>
                   </div>
@@ -103,7 +101,7 @@ export default function Login() {
                     <label htmlFor="username" className="block mt-2 tex-sm font-medium">
                       User Name
                     </label>
-                    <input type="text" id="username" placeholder="username" required className="rounded-md p-2 focus:outline-none" />
+                    <input type="text" id="username" placeholder="Username" required className="rounded-md p-2 focus:outline-none" />
                   </div>
                   <div className="flex flex-col gap-1 mb-3">
                     <label htmlFor="email" className="block mt-2 tex-sm font-medium">

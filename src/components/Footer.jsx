@@ -11,7 +11,7 @@ export default function Footer() {
             </div>
             <ul>
               <li>
-                <a href="#!">About us</a>
+                <a href="/shopping_app/about-us">About us</a>
               </li>
               <li>
                 <a href="#!">Rules & Regulations</a>
