@@ -26,7 +26,7 @@ export default function Home() {
         {/* main section start  */}
         <div className="lg:w-9/12">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
-            <Link to="product-details" className="flex flex-col shadow-lg">
+            <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={huawei}
@@ -48,7 +48,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col justify-center items-center shadow-lg transition-all duration-100 ease-in-out">
+            <Link to="/shopping_app/product-details" className="flex flex-col justify-center items-center shadow-lg transition-all duration-100 ease-in-out">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={samsung}
@@ -70,7 +70,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col shadow-lg transition-all duration-100 ease-in-out">
+            <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg transition-all duration-100 ease-in-out">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={xiaomi}
@@ -92,7 +92,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col shadow- transition-all duration-100 ease-in-outlg">
+            <Link to="/shopping_app/product-details" className="flex flex-col shadow- transition-all duration-100 ease-in-outlg">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={vivo}
@@ -114,7 +114,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col shadow-lg transition-all duration-100 ease-in-out">
+            <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg transition-all duration-100 ease-in-out">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={iphone}
@@ -136,7 +136,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col shadow-lg transition-all duration-100 ease-in-outg">
+            <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg transition-all duration-100 ease-in-outg">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={nokia}
@@ -158,7 +158,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col justify-center items-center shadow-lg">
+            <Link to="/shopping_app/product-details" className="flex flex-col justify-center items-center shadow-lg">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={oppo}
@@ -180,7 +180,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col justify-center items-center shadow-lg">
+            <Link to="/shopping_app/product-details" className="flex flex-col justify-center items-center shadow-lg">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={google}
@@ -202,7 +202,7 @@ export default function Home() {
                 </small>
               </div>
             </Link>
-            <Link to="product-details" className="flex flex-col justify-center items-center shadow-lg">
+            <Link to="/shopping_app/product-details" className="flex flex-col justify-center items-center shadow-lg">
               <div className="lg:h-80 overflow-hidden">
                 <img
                   src={iphone12}

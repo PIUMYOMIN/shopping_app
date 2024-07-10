@@ -13,7 +13,7 @@ export default function RelatedProduct() {
   return (
     <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 py-5">
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -30,7 +30,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -47,7 +47,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -64,7 +64,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -79,7 +79,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -94,7 +94,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -109,7 +109,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -124,7 +124,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
@@ -141,7 +141,7 @@ export default function RelatedProduct() {
         </div>
       </Link>
       <Link
-        to="/product-details"
+        to="/shopping_app/product-details"
         className="flex flex-col shadow-lg bg-gray-300"
       >
         <div className="overflow-hidden lg:h-64">
