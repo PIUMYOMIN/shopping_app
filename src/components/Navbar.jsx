@@ -80,7 +80,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#!" className="relative block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
+              <a href="/shopping_app/login" className="relative block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
                 {" "}<FaRegUserCircle className="w-5 h-5" />{" "}
               </a>
             </li>
