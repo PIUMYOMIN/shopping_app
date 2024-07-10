@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/shopping_app/static/css/main.06919af0.css",
-    "main.js": "/shopping_app/static/js/main.4eda5c0f.js",
+    "main.css": "/shopping_app/static/css/main.2571b65f.css",
+    "main.js": "/shopping_app/static/js/main.f0078bf4.js",
     "static/media/banner2.png": "/shopping_app/static/media/banner2.c0fcf50e736803556dda.png",
     "static/media/banner3.png": "/shopping_app/static/media/banner3.1c4dbc6d876e0e4a9b8a.png",
+    "static/media/mobile.jpg": "/shopping_app/static/media/mobile.7a32ac52cef0d61ef8b9.jpg",
     "static/media/HomePod.png": "/shopping_app/static/media/HomePod.0fb5cdb8a39d0542eea9.png",
     "static/media/studio_display.png": "/shopping_app/static/media/studio_display.3a291eb0dc4a76d7f397.png",
     "static/media/mac_book_case.png": "/shopping_app/static/media/mac_book_case.10da5f473823664b1b41.png",
@@ -37,11 +38,11 @@
     "static/media/facebook.png": "/shopping_app/static/media/facebook.7f4a2b5e3df5f72b0655.png",
     "static/media/paypal.png": "/shopping_app/static/media/paypal.36c31fc89d97fa259404.png",
     "index.html": "/shopping_app/index.html",
-    "main.06919af0.css.map": "/shopping_app/static/css/main.06919af0.css.map",
-    "main.4eda5c0f.js.map": "/shopping_app/static/js/main.4eda5c0f.js.map"
+    "main.2571b65f.css.map": "/shopping_app/static/css/main.2571b65f.css.map",
+    "main.f0078bf4.js.map": "/shopping_app/static/js/main.f0078bf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.06919af0.css",
-    "static/js/main.4eda5c0f.js"
+    "static/css/main.2571b65f.css",
+    "static/js/main.f0078bf4.js"
   ]
 }
