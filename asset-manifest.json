@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping_app/static/css/main.c423ef6f.css",
-    "main.js": "/shopping_app/static/js/main.5184b74f.js",
+    "main.js": "/shopping_app/static/js/main.c7d7683d.js",
     "static/media/banner2.png": "/shopping_app/static/media/banner2.c0fcf50e736803556dda.png",
     "static/media/banner3.png": "/shopping_app/static/media/banner3.1c4dbc6d876e0e4a9b8a.png",
     "static/media/HomePod.png": "/shopping_app/static/media/HomePod.0fb5cdb8a39d0542eea9.png",
@@ -34,10 +34,10 @@
     "static/media/apple_pencil.png": "/shopping_app/static/media/apple_pencil.5b1b3dd5b37dc50d4abf.png",
     "index.html": "/shopping_app/index.html",
     "main.c423ef6f.css.map": "/shopping_app/static/css/main.c423ef6f.css.map",
-    "main.5184b74f.js.map": "/shopping_app/static/js/main.5184b74f.js.map"
+    "main.c7d7683d.js.map": "/shopping_app/static/js/main.c7d7683d.js.map"
   },
   "entrypoints": [
     "static/css/main.c423ef6f.css",
-    "static/js/main.5184b74f.js"
+    "static/js/main.c7d7683d.js"
   ]
 }
