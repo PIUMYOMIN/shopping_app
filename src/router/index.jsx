@@ -5,11 +5,11 @@ import ProductDetails from "./../pages/ProductDetails";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/shopping_app",
     element: <Layout />,
     children: [
       {
-        path: "",
+        path: "/shopping_app",
         element: <Home />
       },
       {
