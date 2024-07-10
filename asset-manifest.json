@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping_app/static/css/main.c423ef6f.css",
-    "main.js": "/shopping_app/static/js/main.1678fe69.js",
+    "main.css": "/shopping_app/static/css/main.06919af0.css",
+    "main.js": "/shopping_app/static/js/main.078090e7.js",
     "static/media/banner2.png": "/shopping_app/static/media/banner2.c0fcf50e736803556dda.png",
     "static/media/banner3.png": "/shopping_app/static/media/banner3.1c4dbc6d876e0e4a9b8a.png",
     "static/media/HomePod.png": "/shopping_app/static/media/HomePod.0fb5cdb8a39d0542eea9.png",
@@ -20,6 +20,7 @@
     "static/media/Vivo-X100-Pro_featured-image-packshot-review.jpg": "/shopping_app/static/media/Vivo-X100-Pro_featured-image-packshot-review.5e41f82cbaa9c278faef.jpg",
     "static/media/gaming_mouse.png": "/shopping_app/static/media/gaming_mouse.66296fd68e7655f0d5ba.png",
     "static/media/s-l1200.jpg": "/shopping_app/static/media/s-l1200.52e72bb249a2e9c9ddc5.jpg",
+    "static/media/qr_cod.png": "/shopping_app/static/media/qr_cod.8f24b74046f7f34696d5.png",
     "static/media/magic_mouse.png": "/shopping_app/static/media/magic_mouse.ef9f88a9da4887277fe9.png",
     "static/media/716n8eAia+L._AC_UF894,1000_QL80_.jpg": "/shopping_app/static/media/716n8eAia+L._AC_UF894,1000_QL80_.1576fe84771519a19d2b.jpg",
     "static/media/gaming_ear_phone.png": "/shopping_app/static/media/gaming_ear_phone.da07220f4b208928ec25.png",
@@ -28,16 +29,19 @@
     "static/media/headphone.png": "/shopping_app/static/media/headphone.7d275063cd1b3f399f9d.png",
     "static/media/metal_phone_tripod.png": "/shopping_app/static/media/metal_phone_tripod.80a08f5b930987d61192.png",
     "static/media/huawei-p50-pro-black.jpg": "/shopping_app/static/media/huawei-p50-pro-black.72a6286bb5bc73bc9110.jpg",
+    "static/media/google.png": "/shopping_app/static/media/google.3a6c623e03ccd36e8637.png",
     "static/media/smart_watch.png": "/shopping_app/static/media/smart_watch.591c35751abad244a043.png",
     "static/media/ipad_pro.png": "/shopping_app/static/media/ipad_pro.5d16ca02681383d3a7ff.png",
     "static/media/AirPods 3.jpg": "/shopping_app/static/media/AirPods 3.1af1a46066c3b99d10ad.jpg",
     "static/media/apple_pencil.png": "/shopping_app/static/media/apple_pencil.5b1b3dd5b37dc50d4abf.png",
+    "static/media/facebook.png": "/shopping_app/static/media/facebook.7f4a2b5e3df5f72b0655.png",
+    "static/media/paypal.png": "/shopping_app/static/media/paypal.36c31fc89d97fa259404.png",
     "index.html": "/shopping_app/index.html",
-    "main.c423ef6f.css.map": "/shopping_app/static/css/main.c423ef6f.css.map",
-    "main.1678fe69.js.map": "/shopping_app/static/js/main.1678fe69.js.map"
+    "main.06919af0.css.map": "/shopping_app/static/css/main.06919af0.css.map",
+    "main.078090e7.js.map": "/shopping_app/static/js/main.078090e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c423ef6f.css",
-    "static/js/main.1678fe69.js"
+    "static/css/main.06919af0.css",
+    "static/js/main.078090e7.js"
   ]
 }
