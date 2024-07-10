@@ -10,18 +10,10 @@ import keyboard from "../asset/bluetooth_keyboard.png";
 import ipadPro from "../asset/ipad_pro.png";
 import { Link } from "react-router-dom";
 export default function AccessorySection() {
-  return (
-    <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 py-5">
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+  return <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 py-5">
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={smartwatch}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={smartwatch} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -32,16 +24,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={airpods}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={airpods} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -52,16 +37,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={gamingphone}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={gamingphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -72,16 +50,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={bluetooth}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={bluetooth} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -92,16 +63,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={headphone}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={headphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -112,16 +76,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={gamingmouse}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={gamingmouse} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -132,16 +89,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={keyboard}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={keyboard} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -152,16 +102,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={tripod}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={tripod} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -172,16 +115,9 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-      <Link
-        to="//shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={ipadPro}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={ipadPro} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -192,6 +128,5 @@ export default function AccessorySection() {
           <small className="text-red-400 line-through ml-2">ks10000</small>
         </div>
       </Link>
-    </div>
-  );
+    </div>;
 }

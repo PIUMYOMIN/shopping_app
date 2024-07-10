@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className={`md:block md:w-auto z-50 ${toggle ? "w-full bg-blue-500 left-0 transition-all duration ease-in-out" : "hidden"}`} id="navbar-dropdown">
           <ul className="flex flex-col lg:justify-center lg:items-center font-medium p-4 md:p-0 mt-4 border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
-              <a href="/shopping_app/product-details" className="block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
+              <a href="/shopping_app" className="block lg:border-none border-b lg:py-2 py-4 px-3 text-white lg:bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
                 Home
               </a>
             </li>
