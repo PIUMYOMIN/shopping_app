@@ -14,18 +14,18 @@ export default function Login() {
     setActiveTab(tab);
   };
 
-  return <div className="max-w-screen-xl lg:h-screen flex justify-center mx-auto lg:px-0 px-2 overflow-hidden">
+  return <div className="max-w-screen-xl h-auto flex justify-center mx-auto lg:px-0 px-2 overflow-hidden">
       <div className="lg:grid grid-cols-2 gap-3 my-10 w-full">
         <div className="bg-green-300 p-5 rounded-md">
           <div>
             <ul className="w-full mb-5 flex list-none flex-row flex-wrap border-b-0 ps-0" role="tablist">
               <li role="presentation" className={`flex-grow basis-0 text-center cursor-pointer ${activeTab === "login" ? "bg-slate-300" : "bg-transparent"}`} onClick={() => handleTabClick("login")}>
-                <button className={`my-2 block border-x-0 border-t-0 px-7 pb-3.5 pt-4 text-normal font-medium uppercase leading-tight focus:outline-none ${activeTab === "login" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} role="tab" aria-selected={activeTab === "login"}>
+                <button className={`my-2 block border-x-0 border-t-0 px-7 lg:py-4 text-normal font-medium uppercase leading-tight focus:outline-none ${activeTab === "login" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} role="tab" aria-selected={activeTab === "login"}>
                   Login
                 </button>
               </li>
               <li role="presentation" className={`flex-grow basis-0 text-center cursor-pointer ${activeTab === "register" ? "bg-slate-300" : "bg-transparent"}`} onClick={() => handleTabClick("register")}>
-                <button className={`my-2 block border-x-0 border-t-0 px-7 pb-3.5 pt-4 text-normal font-medium uppercase leading-tight focus:outline-none ${activeTab === "register" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} role="tab" aria-selected={activeTab === "register"}>
+                <button className={`my-2 block border-x-0 border-t-0 px-7 lg:py-4 text-normal font-medium uppercase leading-tight focus:outline-none ${activeTab === "register" ? "border-primary text-primary" : "border-transparent hover:border-primary"}`} role="tab" aria-selected={activeTab === "register"}>
                   Register
                 </button>
               </li>
