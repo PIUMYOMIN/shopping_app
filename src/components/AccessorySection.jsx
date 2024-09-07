@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 export default function AccessorySection() {
   return <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 py-5">
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={smartwatch} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={smartwatch} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -25,8 +25,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={airpods} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={airpods} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -38,8 +38,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={gamingphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={gamingphone} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -51,8 +51,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={bluetooth} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={bluetooth} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -64,8 +64,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={headphone} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={headphone} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -77,8 +77,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={gamingmouse} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={gamingmouse} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -90,8 +90,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={keyboard} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={keyboard} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -103,8 +103,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={tripod} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={tripod} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -116,8 +116,8 @@ export default function AccessorySection() {
         </div>
       </Link>
       <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg bg-gray-300">
-        <div className="overflow-hidden lg:h-64">
-          <img src={ipadPro} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out" />
+        <div className="flex justify-center items-center overflow-hidden lg:h-64 bg-white">
+          <img src={ipadPro} alt="" className="object-fit w-full lg:h-auto hover:scale-105 transition duration-400 ease-in-out" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">

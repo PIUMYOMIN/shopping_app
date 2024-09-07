@@ -10,18 +10,10 @@ import Keyboard from "../asset/magic_keyboard.png";
 import SmartFolio from "../asset/smart_folio.png";
 import { Link } from "react-router-dom";
 export default function RelatedProduct() {
-  return (
-    <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 py-5">
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+  return <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 py-5">
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={AirPods}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={AirPods} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -29,16 +21,9 @@ export default function RelatedProduct() {
           </h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={MacCase}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={MacCase} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -46,16 +31,9 @@ export default function RelatedProduct() {
           </h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={MagicKeyboard}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={MagicKeyboard} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -63,76 +41,43 @@ export default function RelatedProduct() {
           </h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={ApplePencil}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={ApplePencil} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">Apple Pencil Pro</h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={HomePod}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={HomePod} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
-          <h4 className="text-blue-600 lg:font-semibold">HomePod - Midnight</h4>
+          <h4 className="text-blue-600 lg:font-semibold">
+            HomePod - Midnight
+          </h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={Mouse}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={Mouse} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">Magic Mouse</h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={Display}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={Display} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">Studio Display</h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={Keyboard}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={Keyboard} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -140,16 +85,9 @@ export default function RelatedProduct() {
           </h4>
         </div>
       </Link>
-      <Link
-        to="/shopping_app/product-details"
-        className="flex flex-col shadow-lg bg-gray-300"
-      >
+      <Link to="/shopping_app/product-details" className="flex flex-col shadow-md ">
         <div className="overflow-hidden lg:h-64">
-          <img
-            src={SmartFolio}
-            alt=""
-            className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 ease-in-out"
-          />
+          <img src={SmartFolio} alt="" className="object-fit w-full lg:h-full hover:scale-105 transition duration-400 bg-white" />
         </div>
         <div className="px-2 py-3">
           <h4 className="text-blue-600 lg:font-semibold">
@@ -157,6 +95,5 @@ export default function RelatedProduct() {
           </h4>
         </div>
       </Link>
-    </div>
-  );
+    </div>;
 }

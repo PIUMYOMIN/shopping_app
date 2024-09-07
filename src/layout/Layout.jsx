@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
-  return (
-    <div>
+  return <div>
       <Navbar />
-      <Outlet />
+      <div className="max-w-screen-xl mx-auto h-auto overflow-hidden">
+        <Outlet />
+      </div>
       <Footer />
-    </div>
-  );
+    </div>;
 }
