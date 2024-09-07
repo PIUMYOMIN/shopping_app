@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping_app/static/css/main.8f473636.css",
-    "main.js": "/shopping_app/static/js/main.d2c43b00.js",
+    "main.css": "/shopping_app/static/css/main.b2917510.css",
+    "main.js": "/shopping_app/static/js/main.63bd13b8.js",
     "static/media/banner2.png": "/shopping_app/static/media/banner2.c0fcf50e736803556dda.png",
     "static/media/banner3.png": "/shopping_app/static/media/banner3.1c4dbc6d876e0e4a9b8a.png",
     "static/media/mobile.jpg": "/shopping_app/static/media/mobile.7a32ac52cef0d61ef8b9.jpg",
@@ -12,6 +12,7 @@
     "static/media/bluetooth.png": "/shopping_app/static/media/bluetooth.b5d4c708797b0aa6eb82.png",
     "static/media/iphone-12-pro-max-argent-1_1.webp": "/shopping_app/static/media/iphone-12-pro-max-argent-1_1.a5939a9bb6c7d7988430.webp",
     "static/media/banner.png": "/shopping_app/static/media/banner.81b42c9cf49297051bb1.png",
+    "static/media/1617879104-w9DzEEYm.jpg": "/shopping_app/static/media/1617879104-w9DzEEYm.c279ccb5435e27b74a82.jpg",
     "static/media/magic_keyboard.png": "/shopping_app/static/media/magic_keyboard.9fb67a728e36ff570c03.png",
     "static/media/smart_folio.png": "/shopping_app/static/media/smart_folio.67760619c2231a26e05a.png",
     "static/media/1110i-nokia-mobile-phone.jpg": "/shopping_app/static/media/1110i-nokia-mobile-phone.d66065cab22501a6a0dd.jpg",
@@ -38,11 +39,11 @@
     "static/media/facebook.png": "/shopping_app/static/media/facebook.7f4a2b5e3df5f72b0655.png",
     "static/media/paypal.png": "/shopping_app/static/media/paypal.36c31fc89d97fa259404.png",
     "index.html": "/shopping_app/index.html",
-    "main.8f473636.css.map": "/shopping_app/static/css/main.8f473636.css.map",
-    "main.d2c43b00.js.map": "/shopping_app/static/js/main.d2c43b00.js.map"
+    "main.b2917510.css.map": "/shopping_app/static/css/main.b2917510.css.map",
+    "main.63bd13b8.js.map": "/shopping_app/static/js/main.63bd13b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f473636.css",
-    "static/js/main.d2c43b00.js"
+    "static/css/main.b2917510.css",
+    "static/js/main.63bd13b8.js"
   ]
 }
