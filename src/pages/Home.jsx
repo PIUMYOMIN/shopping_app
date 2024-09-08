@@ -1,6 +1,5 @@
 import React from "react";
 import banner4 from "../asset/3.png";
-import smartwatch from "../asset/smart_watch.png";
 import Sidebar from "../components/Sidebar";
 import LatestModels from "../components/LatestModels";
 import HeaderCarousel from "../components/HeaderCarousel";

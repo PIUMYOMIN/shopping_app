@@ -6,7 +6,6 @@ import Vivo from "../asset/Vivo-X100-Pro_featured-image-packshot-review.jpg";
 import { FaStar, FaStarHalf } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import RelatedProduct from "../components/RelatedProduct";
-import MyCart from "./MyCart";
 
 export default function ProductDetails() {
   const [mainImage, setMainImage] = useState(Iphone);
