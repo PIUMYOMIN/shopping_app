@@ -1,6 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Iphone from "../asset/1617879104-w9DzEEYm.jpg";
 import AirPot from "../asset/AirPod Pro.png";
+import mini from "../asset/refurb-mac-mini-2020_AV2.jpeg";
+import keyboard from "../asset/71ZAubfW1TL._AC_UF894,1000_QL80_.jpg";
+import Jbl from "../asset/JBLBluetoothSpeaker_dd2d71ae-d3a3-41bd-94af-30ad3d05015b_600x.png";
+import Huawei from "../asset/Huawei-MatePad-Pro-11-2022.jpg";
+import Watch from "../asset/TH_Apple_Watch_Ultra_2_LTE_49mm_Titanium_Blue_Black_Trail_Loop_PDP_Image_Position-1_dc8b2fab-153b-4106-85aa-a7a76514cb44.png";
+import {
+  BsChatLeftText,
+  BsFillBoxFill,
+  BsHeadset,
+  BsPersonGear
+} from "react-icons/bs";
 
 export default function MyCart() {
   return (
@@ -31,13 +43,13 @@ export default function MyCart() {
               <div>
                 <button
                   type="button"
-                  className="border border-gray-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white"
+                  className="border border-red-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white"
                 >
                   Remove
                 </button>
                 <button
                   type="button"
-                  className="border border-gray-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3"
+                  className="border border-green-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3"
                 >
                   Save for later
                 </button>
@@ -65,15 +77,35 @@ export default function MyCart() {
               <div>
                 <button
                   type="button"
-                  className="border border-gray-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white"
+                  className="border border-red-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white"
                 >
                   Remove
                 </button>
                 <button
                   type="button"
-                  className="border border-gray-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3"
+                  className="border border-green-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3"
                 >
                   Save for later
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="w-full">
+            <div className="flex justify-between items-center">
+              <div>
+                <button
+                  type="button"
+                  className="bg-blue-400 hover:bg-blue-300 text-white py-1 px-2 rounded-md"
+                >
+                  Back to home
+                </button>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  className="text-red-400 hover:underline py-1 px-2 rounded-md"
+                >
+                  Remove all
                 </button>
               </div>
             </div>
@@ -143,6 +175,88 @@ export default function MyCart() {
               </div>
             </form>
           </div>
+        </div>
+      </div>
+      <div className="my-5">
+        <div className="lg:flex justify-between gap-3 grid grid-cols-2 bg-gray-100 text-gray-400 py-7 lg:px-3 px-1">
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+            <BsHeadset className="lg:text-6xl text-4xl font-bold" />
+            <div className="flex flex-col">
+              <div className="lg:text-2xl font-semibold">1425</div>
+              <div>24 Service</div>
+            </div>
+          </div>
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+            <BsPersonGear className="lg:text-6xl text-4xl font-bold" />
+            <div className="flex flex-col">
+              <div className="lg:text-2xl font-semibold">Services</div>
+              <div>Fix and Maintenance</div>
+            </div>
+          </div>
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+            <BsFillBoxFill className="lg:text-6xl text-4xl font-bold" />
+            <div className="flex flex-col">
+              <div className="lg:text-2xl font-semibold">122 Cities</div>
+              <div>Delivary reach</div>
+            </div>
+          </div>
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+            <BsChatLeftText className="lg:text-6xl text-4xl font-bold" />
+            <div className="flex flex-col">
+              <div className="lg:text-2xl font-semibold">Over 1000</div>
+              <div>Daily Orders</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-gray-100 p-2">
+        <div className="my-3 text-xl">Recommend Items</div>
+        <div className="grid grid-cols-5 gap-3">
+          <Link className="h-80">
+            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
+              <img src={mini} alt="" className="h-full object-fill" />
+            </div>
+            <div className="bg-slate-200 p-2 gap-3 text-base">
+              <div>Mac mini Apple M1 Chip with 8‑Core CPU and 8‑Core GPU </div>
+              <div className="text-right text-xl text-red-500">$2,300</div>
+            </div>
+          </Link>
+          <Link className="h-80">
+            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
+              <img src={keyboard} alt="" className="h-full object-fill" />
+            </div>
+            <div className="bg-slate-200 p-2 gap-3 text-base">
+              <div>TECURS Gaming Keyboard-Wired USB Keyboard </div>
+              <div className="text-right text-xl text-red-500">$200</div>
+            </div>
+          </Link>
+          <Link className="h-80">
+            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
+              <img src={Jbl} alt="" className="h-full object-fill" />
+            </div>
+            <div className="bg-slate-200 p-2 gap-3 text-base">
+              <div>JBL Flip 6 | Portable Waterproof Speaker</div>
+              <div className="text-right text-xl text-red-500">$820</div>
+            </div>
+          </Link>
+          <Link className="h-80">
+            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
+              <img src={Huawei} alt="" className="h-full object-fill" />
+            </div>
+            <div className="bg-slate-200 p-2 gap-3 text-base">
+              <div>Huawei Mate Pad Pro with Smart Keyboard</div>
+              <div className="text-right text-xl text-red-500">$850</div>
+            </div>
+          </Link>
+          <Link className="h-80">
+            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
+              <img src={Watch} alt="" className="h-full object-fill" />
+            </div>
+            <div className="bg-slate-200 p-2 gap-3 text-base">
+              <div>Apple watch Ultra 2 LTE 49mm Titanium</div>
+              <div className="text-right text-xl text-red-500">$1200</div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
