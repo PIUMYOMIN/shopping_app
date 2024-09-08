@@ -15,8 +15,7 @@ import {
 } from "react-icons/bs";
 
 export default function MyCart() {
-  return (
-    <div className="lg:px-0 px-2">
+  return <div className="lg:px-0 px-2">
       <div className="py-5">
         <div className="p-2 bg-blue-50 font-semibold">My cart (2)</div>
       </div>
@@ -41,16 +40,10 @@ export default function MyCart() {
                 </p>
               </div>
               <div>
-                <button
-                  type="button"
-                  className="border border-red-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white"
-                >
+                <button type="button" className="border border-red-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white">
                   Remove
                 </button>
-                <button
-                  type="button"
-                  className="border border-green-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3"
-                >
+                <button type="button" className="border border-green-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3">
                   Save for later
                 </button>
               </div>
@@ -75,16 +68,10 @@ export default function MyCart() {
                 </p>
               </div>
               <div>
-                <button
-                  type="button"
-                  className="border border-red-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white"
-                >
+                <button type="button" className="border border-red-400 text-red-400 rounded-md py-1 px-2 hover:bg-red-400 hover:text-white">
                   Remove
                 </button>
-                <button
-                  type="button"
-                  className="border border-green-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3"
-                >
+                <button type="button" className="border border-green-400 text-green-400 rounded-md py-1 px-2 hover:bg-green-400 hover:text-white mx-3">
                   Save for later
                 </button>
               </div>
@@ -93,18 +80,12 @@ export default function MyCart() {
           <div className="w-full">
             <div className="flex justify-between items-center">
               <div>
-                <button
-                  type="button"
-                  className="bg-blue-400 hover:bg-blue-300 text-white py-1 px-2 rounded-md"
-                >
+                <button type="button" className="bg-blue-400 hover:bg-blue-300 text-white py-1 px-2 rounded-md">
                   Back to home
                 </button>
               </div>
               <div>
-                <button
-                  type="button"
-                  className="text-red-400 hover:underline py-1 px-2 rounded-md"
-                >
+                <button type="button" className="text-red-400 hover:underline py-1 px-2 rounded-md">
                   Remove all
                 </button>
               </div>
@@ -116,11 +97,7 @@ export default function MyCart() {
             <form action="">
               <div className="font-thin">Have coupon?</div>
               <div className="flex items-center border rounded-md my-1 overflow-hidden">
-                <input
-                  type="text"
-                  className="p-2 outline-none"
-                  placeholder="Add coupon"
-                />
+                <input type="text" className="p-2 outline-none" placeholder="Add coupon" />
                 <div className="text-center bg-gray-100 p-2 w-full">
                   <button type="button" className="text-blue-600">
                     Apply
@@ -163,10 +140,7 @@ export default function MyCart() {
                       </tr>
                     </table>
                     <div className="mt-3">
-                      <button
-                        type="button"
-                        className="w-full bg-green-400 text-white p-2 rounded-md"
-                      >
+                      <button type="button" className="w-full bg-green-400 text-white p-2 rounded-md">
                         Confirm
                       </button>
                     </div>
@@ -217,7 +191,9 @@ export default function MyCart() {
               <img src={mini} alt="" className="h-full object-fill" />
             </div>
             <div className="bg-slate-200 p-2 gap-3 text-base">
-              <div>Mac mini Apple M1 Chip with 8‑Core CPU and 8‑Core GPU </div>
+              <div>
+                Mac mini Apple M1 Chip with 8‑Core CPU and 8‑Core GPU{" "}
+              </div>
               <div className="text-right text-xl text-red-500">$2,300</div>
             </div>
           </Link>
@@ -253,12 +229,11 @@ export default function MyCart() {
               <img src={Watch} alt="" className="h-full object-fill" />
             </div>
             <div className="bg-slate-200 p-2 gap-3 text-base">
-              <div>Apple watch Ultra 2 LTE 49mm Titanium</div>
+              <div>Samsaung Smart Watch</div>
               <div className="text-right text-xl text-red-500">$1200</div>
             </div>
           </Link>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 }
