@@ -6,7 +6,7 @@ import mini from "../asset/refurb-mac-mini-2020_AV2.jpeg";
 import keyboard from "../asset/71ZAubfW1TL._AC_UF894,1000_QL80_.jpg";
 import Jbl from "../asset/JBLBluetoothSpeaker_dd2d71ae-d3a3-41bd-94af-30ad3d05015b_600x.png";
 import Huawei from "../asset/Huawei-MatePad-Pro-11-2022.jpg";
-import Watch from "../asset/apple_watch_Ultra_49mm.png";
+import Watch from "../asset/2D6mUyNqjvLTKi0L8ifUttHhgkJ.jpg";
 import {
   BsChatLeftText,
   BsFillBoxFill,
