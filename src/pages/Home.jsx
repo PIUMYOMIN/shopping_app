@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <HeaderCarousel />
-    <div className="bg-slate-100">
+    <div>
       <div className="flex flex-row gap-2">
         {/* Sidebar start */}
         <Sidebar />
