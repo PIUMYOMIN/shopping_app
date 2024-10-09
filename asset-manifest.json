@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/shopping_app/static/css/main.83bc6cdb.css",
-    "main.js": "/shopping_app/static/js/main.ffdad638.js",
+    "main.css": "/shopping_app/static/css/main.79bb5c08.css",
+    "main.js": "/shopping_app/static/js/main.204723c8.js",
+    "static/media/Infinix-Note-40-Pro-Vintage-Green-5G--1-square_medium.png": "/shopping_app/static/media/Infinix-Note-40-Pro-Vintage-Green-5G--1-square_medium.e16732040a436b34935a.png",
     "static/media/banner2.png": "/shopping_app/static/media/banner2.c0fcf50e736803556dda.png",
     "static/media/banner3.png": "/shopping_app/static/media/banner3.1c4dbc6d876e0e4a9b8a.png",
+    "static/media/Samsung-Galaxy-A05---1-square_medium.png": "/shopping_app/static/media/Samsung-Galaxy-A05---1-square_medium.2e454393514e2c8f2f5e.png",
     "static/media/mobile.jpg": "/shopping_app/static/media/mobile.7a32ac52cef0d61ef8b9.jpg",
     "static/media/HomePod.png": "/shopping_app/static/media/HomePod.0fb5cdb8a39d0542eea9.png",
     "static/media/studio_display.png": "/shopping_app/static/media/studio_display.3a291eb0dc4a76d7f397.png",
@@ -12,6 +14,7 @@
     "static/media/bluetooth.png": "/shopping_app/static/media/bluetooth.b5d4c708797b0aa6eb82.png",
     "static/media/iphone-12-pro-max-argent-1_1.webp": "/shopping_app/static/media/iphone-12-pro-max-argent-1_1.a5939a9bb6c7d7988430.webp",
     "static/media/banner.png": "/shopping_app/static/media/banner.81b42c9cf49297051bb1.png",
+    "static/media/HUAWEI-P30-lite-1.png": "/shopping_app/static/media/HUAWEI-P30-lite-1.930f0422bb123e5c788d.png",
     "static/media/1617879104-w9DzEEYm.jpg": "/shopping_app/static/media/1617879104-w9DzEEYm.c279ccb5435e27b74a82.jpg",
     "static/media/magic_keyboard.png": "/shopping_app/static/media/magic_keyboard.9fb67a728e36ff570c03.png",
     "static/media/smart_folio.png": "/shopping_app/static/media/smart_folio.67760619c2231a26e05a.png",
@@ -20,18 +23,18 @@
     "static/media/Apple-iPhone-15-Pro-Max_-blue-titanium_featured-image-packshot-review.jpg": "/shopping_app/static/media/Apple-iPhone-15-Pro-Max_-blue-titanium_featured-image-packshot-review.7cb40291d8e251822967.jpg",
     "static/media/AirPod Pro.png": "/shopping_app/static/media/AirPod Pro.29091c5ba12f8654b7df.png",
     "static/media/bluetooth_keyboard.png": "/shopping_app/static/media/bluetooth_keyboard.3163c1a4ff533f1f8a88.png",
+    "static/media/716n8eAia+L._AC_UF894,1000_QL80_.jpg": "/shopping_app/static/media/716n8eAia+L._AC_UF894,1000_QL80_.e824b94486af5c57a06f.jpg",
     "static/media/Vivo-X100-Pro_featured-image-packshot-review.jpg": "/shopping_app/static/media/Vivo-X100-Pro_featured-image-packshot-review.5e41f82cbaa9c278faef.jpg",
+    "static/media/41f2o1XL3VL.jpg": "/shopping_app/static/media/41f2o1XL3VL.cc6849fff592ba59f0a9.jpg",
     "static/media/refurb-mac-mini-2020_AV2.jpeg": "/shopping_app/static/media/refurb-mac-mini-2020_AV2.0ccc495d06077e2e1a6f.jpeg",
     "static/media/gaming_mouse.png": "/shopping_app/static/media/gaming_mouse.66296fd68e7655f0d5ba.png",
     "static/media/s-l1200.jpg": "/shopping_app/static/media/s-l1200.52e72bb249a2e9c9ddc5.jpg",
     "static/media/qr_cod.png": "/shopping_app/static/media/qr_cod.8f24b74046f7f34696d5.png",
     "static/media/magic_mouse.png": "/shopping_app/static/media/magic_mouse.ef9f88a9da4887277fe9.png",
     "static/media/71ZAubfW1TL._AC_UF894,1000_QL80_.jpg": "/shopping_app/static/media/71ZAubfW1TL._AC_UF894,1000_QL80_.9c1dffb4e7911f829331.jpg",
-    "static/media/716n8eAia+L._AC_UF894,1000_QL80_.jpg": "/shopping_app/static/media/716n8eAia+L._AC_UF894,1000_QL80_.1576fe84771519a19d2b.jpg",
     "static/media/Huawei-MatePad-Pro-11-2022.jpg": "/shopping_app/static/media/Huawei-MatePad-Pro-11-2022.6a1b36465b6b8991cf66.jpg",
     "static/media/gaming_ear_phone.png": "/shopping_app/static/media/gaming_ear_phone.da07220f4b208928ec25.png",
     "static/media/S24_Ultra.jpg": "/shopping_app/static/media/S24_Ultra.a8e15439f5fe3e622988.jpg",
-    "static/media/41f2o1XL3VL.jpg": "/shopping_app/static/media/41f2o1XL3VL.4ce12d0aa37f1550d426.jpg",
     "static/media/headphone.png": "/shopping_app/static/media/headphone.7d275063cd1b3f399f9d.png",
     "static/media/metal_phone_tripod.png": "/shopping_app/static/media/metal_phone_tripod.80a08f5b930987d61192.png",
     "static/media/huawei-p50-pro-black.jpg": "/shopping_app/static/media/huawei-p50-pro-black.72a6286bb5bc73bc9110.jpg",
@@ -44,11 +47,11 @@
     "static/media/facebook.png": "/shopping_app/static/media/facebook.7f4a2b5e3df5f72b0655.png",
     "static/media/paypal.png": "/shopping_app/static/media/paypal.36c31fc89d97fa259404.png",
     "index.html": "/shopping_app/index.html",
-    "main.83bc6cdb.css.map": "/shopping_app/static/css/main.83bc6cdb.css.map",
-    "main.ffdad638.js.map": "/shopping_app/static/js/main.ffdad638.js.map"
+    "main.79bb5c08.css.map": "/shopping_app/static/css/main.79bb5c08.css.map",
+    "main.204723c8.js.map": "/shopping_app/static/js/main.204723c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.83bc6cdb.css",
-    "static/js/main.ffdad638.js"
+    "static/css/main.79bb5c08.css",
+    "static/js/main.204723c8.js"
   ]
 }
