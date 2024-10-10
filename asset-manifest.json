@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping_app/static/css/main.52404638.css",
-    "main.js": "/shopping_app/static/js/main.f35d3ffa.js",
+    "main.css": "/shopping_app/static/css/main.edb0c8a9.css",
+    "main.js": "/shopping_app/static/js/main.02e0a6e0.js",
     "static/media/Infinix-Note-40-Pro-Vintage-Green-5G--1-square_medium.png": "/shopping_app/static/media/Infinix-Note-40-Pro-Vintage-Green-5G--1-square_medium.e16732040a436b34935a.png",
     "static/media/banner2.png": "/shopping_app/static/media/banner2.c0fcf50e736803556dda.png",
     "static/media/banner3.png": "/shopping_app/static/media/banner3.1c4dbc6d876e0e4a9b8a.png",
@@ -47,11 +47,11 @@
     "static/media/facebook.png": "/shopping_app/static/media/facebook.7f4a2b5e3df5f72b0655.png",
     "static/media/paypal.png": "/shopping_app/static/media/paypal.36c31fc89d97fa259404.png",
     "index.html": "/shopping_app/index.html",
-    "main.52404638.css.map": "/shopping_app/static/css/main.52404638.css.map",
-    "main.f35d3ffa.js.map": "/shopping_app/static/js/main.f35d3ffa.js.map"
+    "main.edb0c8a9.css.map": "/shopping_app/static/css/main.edb0c8a9.css.map",
+    "main.02e0a6e0.js.map": "/shopping_app/static/js/main.02e0a6e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.52404638.css",
-    "static/js/main.f35d3ffa.js"
+    "static/css/main.edb0c8a9.css",
+    "static/js/main.02e0a6e0.js"
   ]
 }
