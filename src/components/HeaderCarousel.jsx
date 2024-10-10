@@ -44,9 +44,7 @@ export default function HeaderCarousel() {
           </Link>
           <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer bg-white">
             <img src={airpods} alt="" className="p-5 hover:scale-105" />
-            <p className="text-blue-400 hover:text-blue-600">
-              Apple AirPods Pro 3
-            </p>
+            <p className="text-blue-400 hover:text-blue-600">AirPods Pro 3</p>
           </Link>
           <Link to="/shopping_app/product-details" className="relative p-2 hover:shadow-lg h-full object-cover overflow-hidden cursor-pointer bg-white">
             <img src={headphone} alt="" className="p-5 hover:scale-105" />

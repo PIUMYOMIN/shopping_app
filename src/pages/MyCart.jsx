@@ -152,29 +152,29 @@ export default function MyCart() {
         </div>
       </div>
       <div className="my-5">
-        <div className="lg:flex justify-between gap-3 grid grid-cols-2 bg-gray-100 text-gray-400 py-7 lg:px-3 px-1">
-          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 bg-gray-100 text-gray-400 py-7 lg:px-3 px-1">
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3">
             <BsHeadset className="lg:text-6xl text-4xl font-bold" />
             <div className="flex flex-col">
               <div className="lg:text-2xl font-semibold">1425</div>
               <div>24 Service</div>
             </div>
           </div>
-          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3">
             <BsPersonGear className="lg:text-6xl text-4xl font-bold" />
             <div className="flex flex-col">
               <div className="lg:text-2xl font-semibold">Services</div>
               <div>Fix and Maintenance</div>
             </div>
           </div>
-          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3">
             <BsFillBoxFill className="lg:text-6xl text-4xl font-bold" />
             <div className="flex flex-col">
               <div className="lg:text-2xl font-semibold">122 Cities</div>
               <div>Delivary reach</div>
             </div>
           </div>
-          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3 lg:w-1/4">
+          <div className="flex lg:justify-center items-center rounded-md bg-white p-5 gap-3">
             <BsChatLeftText className="lg:text-6xl text-4xl font-bold" />
             <div className="flex flex-col">
               <div className="lg:text-2xl font-semibold">Over 1000</div>
@@ -185,52 +185,52 @@ export default function MyCart() {
       </div>
       <div className="bg-gray-100 p-2">
         <div className="my-3 text-xl">Recommend Items</div>
-        <div className="grid grid-cols-5 gap-3">
-          <Link className="h-80">
-            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
-              <img src={mini} alt="" className="h-full object-fill" />
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
+          <Link className="bg-slate-200">
+            <div className="flex justify-center items-center  h-2/3 bg-white overflow-hidden">
+              <img src={mini} alt="" className="object-cover" />
             </div>
-            <div className="bg-slate-200 p-2 gap-3 text-base">
+            <div className="p-2 text-base">
               <div>
                 Mac mini Apple M1 Chip with 8‑Core CPU and 8‑Core GPU{" "}
               </div>
-              <div className="text-right text-xl text-red-500">$2,300</div>
+              {/* <div className="text-right text-xl text-red-500">$2,300</div> */}
             </div>
           </Link>
-          <Link className="h-80">
-            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
-              <img src={keyboard} alt="" className="h-full object-fill" />
+          <Link className="bg-slate-200">
+            <div className="flex justify-center items-center bg-w h-2/3 bg-white overflow-hidden">
+              <img src={keyboard} alt="" className="object-cover" />
             </div>
-            <div className="bg-slate-200 p-2 gap-3 text-base">
+            <div className="p-2 text-base">
               <div>TECURS Gaming Keyboard-Wired USB Keyboard </div>
-              <div className="text-right text-xl text-red-500">$200</div>
+              {/* <div className="text-right text-xl text-red-500">$200</div> */}
             </div>
           </Link>
-          <Link className="h-80">
-            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
-              <img src={Jbl} alt="" className="h-full object-fill" />
+          <Link className="bg-slate-200">
+            <div className="flex justify-center items-center h-2/3 bg-white overflow-hidden">
+              <img src={Jbl} alt="" className="object-cover" />
             </div>
-            <div className="bg-slate-200 p-2 gap-3 text-base">
+            <div className="p-2 text-base">
               <div>JBL Flip 6 | Portable Waterproof Speaker</div>
-              <div className="text-right text-xl text-red-500">$820</div>
+              {/* <div className="text-right text-xl text-red-500">$820</div> */}
             </div>
           </Link>
-          <Link className="h-80">
-            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
-              <img src={Huawei} alt="" className="h-full object-fill" />
+          <Link className="bg-slate-200">
+            <div className="flex justify-center items-center h-2/3 bg-white overflow-hidden">
+              <img src={Huawei} alt="" className="object-cover" />
             </div>
-            <div className="bg-slate-200 p-2 gap-3 text-base">
+            <div className="p-2 text-base">
               <div>Huawei Mate Pad Pro with Smart Keyboard</div>
-              <div className="text-right text-xl text-red-500">$850</div>
+              {/* <div className="text-right text-xl text-red-500">$850</div> */}
             </div>
           </Link>
-          <Link className="h-80">
-            <div className="flex justify-center items-center w-full lg:h-48 h-36 bg-white overflow-hidden">
-              <img src={Watch} alt="" className="h-full object-fill" />
+          <Link className="bg-slate-200">
+            <div className="flex justify-center items-center h-2/3 bg-white overflow-hidden">
+              <img src={Watch} alt="" className="object-cover" />
             </div>
-            <div className="bg-slate-200 p-2 gap-3 text-base">
+            <div className="p-2 text-base">
               <div>Samsaung Smart Watch</div>
-              <div className="text-right text-xl text-red-500">$1200</div>
+              {/* <div className="text-right text-xl text-red-500">$1200</div> */}
             </div>
           </Link>
         </div>
