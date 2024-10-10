@@ -1,4 +1,6 @@
 import React from "react";
+import { FaRegStar, FaStar } from "react-icons/fa";
+import { FaStarHalfStroke } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function Sidebar() {
@@ -367,6 +369,110 @@ export default function Sidebar() {
                 </Link>
               </div>
             </div>
+          </form>
+        </div>
+      </div>
+      <div className="mt-5 pb-3 shadow-md">
+        <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">Rating</h4>
+        <div className="mt-3 dark:divide-gray-400">
+          <form>
+            <ul className="max-w-md divide-y divide-gray-200 px-3">
+              <li className="flex flex-row justify-start items-center gap-2 my-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="any"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+                <label htmlFor="any" className="cursor-pointer">
+                  <div className="flex text-yellow-600">
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
+                </label>
+              </li>
+              <li className="flex flex-row justify-start items-center gap-2 my-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="any"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+                <label htmlFor="any" className="cursor-pointer">
+                  <div className="flex text-yellow-600">
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStarHalfStroke />
+                    <FaRegStar />
+                  </div>
+                </label>
+              </li>
+              <li className="flex flex-row justify-start items-center gap-2 my-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="any"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+                <label htmlFor="any" className="cursor-pointer">
+                  <div className="flex text-yellow-600">
+                    <FaStar />
+                    <FaStar />
+                    <FaStarHalfStroke />
+                    <FaRegStar />
+                    <FaRegStar />
+                  </div>
+                </label>
+              </li>
+              <li className="flex flex-row justify-start items-center gap-2 my-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="any"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+                <label htmlFor="any" className="cursor-pointer">
+                  <div className="flex text-yellow-600">
+                    <FaStar />
+                    <FaStarHalfStroke />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                  </div>
+                </label>
+              </li>
+              <li className="flex flex-row justify-start items-center gap-2 my-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="any"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+                <label htmlFor="any" className="cursor-pointer">
+                  <div className="flex text-yellow-600">
+                    <FaStarHalfStroke />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                  </div>
+                </label>
+              </li>
+            </ul>
           </form>
         </div>
       </div>

@@ -9,12 +9,12 @@ export default function Home() {
     <>
       <HeaderCarousel />
     <div>
-      <div className="flex flex-row gap-2">
+      <div className="max-w-screen-xl mx-auto flex flex-row gap-2">
         {/* Sidebar start */}
         <Sidebar />
         {/* Sidebar end  */}
         {/* main section start  */}
-        <div className="lg:w-9/12">
+        <div>
             {/* latest models start */}
             <LatestModels />
           {/* latest models end */}
