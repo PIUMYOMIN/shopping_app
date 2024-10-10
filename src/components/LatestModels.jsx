@@ -13,19 +13,11 @@ import huaweiP30 from "../asset/HUAWEI-P30-lite-1.png";
 import samsungAo5 from "../asset/Samsung-Galaxy-A05---1-square_medium.png";
 import { Link } from "react-router-dom";
 export default function LatestModels() {
-  return (
-    <div>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-2">
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+  return <div>
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full bg-white flex justify-center items-center overflow-hidden">
-            <img
-              src={huawei}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={huawei} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-1 py-3 bg-gray-300">
             <div>
@@ -39,20 +31,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Black, White</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full bg-white flex justify-center items-center overflow-hidden">
-            <img
-              src={samsung}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={samsung} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-1 py-3 bg-gray-300 w-full">
             <div>
@@ -66,20 +53,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Black, Silver</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full bg-white flex justify-center items-center overflow-hidden">
-            <img
-              src={xiaomi}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={xiaomi} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -93,20 +75,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Titanium Gray</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full bg-white flex justify-center items-center overflow-hidden">
-            <img
-              src={vivo}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={vivo} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -120,20 +97,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Blace, White, Pink</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full bg-white flex justify-center items-center overflow-hidden">
-            <img
-              src={iphone}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={iphone} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -147,20 +119,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Blace, White, Pink</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full bg-white flex justify-center items-center overflow-hidden">
-            <img
-              src={nokia}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={nokia} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -174,20 +141,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Gray</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full bg-white flex justify-center items-center overflow-hidden">
-            <img
-              src={oppo}
-              alt=""
-              className="object-fit w-full lg:-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={oppo} alt="" className="object-fit w-full lg:-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -201,20 +163,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Aurora</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full flex justify-center items-center bg-white overflow-hidden">
-            <img
-              src={google}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={google} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -228,20 +185,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Aurora</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full flex justify-center items-center bg-white overflow-hidden">
-            <img
-              src={iphone12}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={iphone12} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -255,20 +207,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Aurora</div>
               <span className="lg:text-2xl text-red-500">Ks 450,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full flex justify-center items-center bg-white overflow-hidden">
-            <img
-              src={infinix}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={infinix} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -282,20 +229,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Vintage Green</div>
               <span className="lg:text-2xl text-red-500">Ks 880,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full flex justify-center items-center bg-white overflow-hidden">
-            <img
-              src={huaweiP30}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={huaweiP30} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -309,20 +251,15 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Skyblue</div>
               <span className="lg:text-2xl text-red-500">Ks 880,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
-        <Link
-          to="/shopping_app/product-details"
-          className="flex flex-col shadow-lg"
-        >
+        <Link to="/shopping_app/product-details" className="flex flex-col shadow-lg">
           <div className="w-full h-full flex justify-center items-center bg-white overflow-hidden">
-            <img
-              src={samsungAo5}
-              alt=""
-              className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out"
-            />
+            <img src={samsungAo5} alt="" className="object-fit w-full hover:scale-105 transition duration-400 ease-in-out" />
           </div>
           <div className="px-2 py-3 bg-gray-300 w-full">
             <div>
@@ -336,11 +273,12 @@ export default function LatestModels() {
             <div>
               <div className="text-xs">Color: Skyblue</div>
               <span className="lg:text-2xl text-red-500">Ks 880,000</span>
-              <small className="text-red-400 line-through ml-2">ks10000</small>
+              <small className="text-red-400 line-through ml-2">
+                ks10000
+              </small>
             </div>
           </div>
         </Link>
       </div>
-    </div>
-  );
+    </div>;
 }

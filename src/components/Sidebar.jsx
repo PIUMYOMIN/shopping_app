@@ -1,28 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
     <div className="w-3/12 hidden lg:block">
-      <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">
-        Choose Your Prefer
-      </h4>
-      <div className="mt-3 shadow-md">
-        <h4>Brands</h4>
-        <div className="mt-3">
+      <div className="pb-3 shadow-md">
+        <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">Brands</h4>
+        <div className="mt-3 dark:divide-gray-400">
           <form>
-            <ul className="max-w-md divide-y divide-gray-200 dark:divide-gray-400">
-              <li className="flex flex-row justify-between items-center px-3">
-                <label htmlFor="apple" className="cursor-pointer">
-                  Apple
-                </label>
-                <input
-                  type="checkbox"
-                  name=""
-                  id="apple"
-                  value=""
-                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
-                  required
-                />
+            <ul className="max-w-md divide-y divide-gray-200">
+              <li className="px-3">
+                <Link
+                  to="/shopping_app/product-filter"
+                  className="flex flex-row justify-between items-center"
+                >
+                  <label htmlFor="apple" className="cursor-pointer">
+                    Apple
+                  </label>
+                  <input
+                    type="checkbox"
+                    name=""
+                    id="apple"
+                    value=""
+                    className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                    required
+                  />
+                </Link>
               </li>
               <li className="flex flex-row justify-between items-center px-3">
                 <label htmlFor="samsung" className="cursor-pointer">
@@ -119,12 +122,12 @@ export default function Sidebar() {
           </form>
         </div>
       </div>
-      <div className="mt-3 shadow-md">
-        <h4 className="px-3">Accessories</h4>
-        <div className=" bg-slate-200 mt-3">
+      <div className="mt-5 pb-3 shadow-md">
+        <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">Accessories</h4>
+        <div className="mt-3 dark:divide-gray-400">
           <form>
-            <ul className="max-w-md divide-y divide-gray-200 dark:divide-gray-400">
-              <li className="flex flex-row justify-between items-center px-3">
+            <ul className="max-w-md divide-y divide-gray-200 px-3">
+              <li className="flex flex-row justify-between items-center">
                 <label htmlFor="airpods" className="cursor-pointer">
                   Air Pods
                 </label>
@@ -137,7 +140,7 @@ export default function Sidebar() {
                   required
                 />
               </li>
-              <li className="flex flex-row justify-between items-center px-3">
+              <li className="flex flex-row justify-between items-center">
                 <label htmlFor="smart_watch" className="cursor-pointer">
                   Smart Watch
                 </label>
@@ -150,7 +153,7 @@ export default function Sidebar() {
                   required
                 />
               </li>
-              <li className="flex flex-row justify-between items-center px-3">
+              <li className="flex flex-row justify-between items-center">
                 <label htmlFor="bluetooth_speaker" className="cursor-pointer">
                   Bluetooth Speaker
                 </label>
@@ -163,7 +166,7 @@ export default function Sidebar() {
                   required
                 />
               </li>
-              <li className="flex flex-row justify-between items-center px-3">
+              <li className="flex flex-row justify-between items-center">
                 <label htmlFor="powerbank" className="cursor-pointer">
                   Power Bank
                 </label>
@@ -176,7 +179,7 @@ export default function Sidebar() {
                   required
                 />
               </li>
-              <li className="flex flex-row justify-between items-center px-3">
+              <li className="flex flex-row justify-between items-center">
                 <label htmlFor="tripod" className="cursor-pointer">
                   Mobile/Tablet Tripod
                 </label>
@@ -189,7 +192,7 @@ export default function Sidebar() {
                   required
                 />
               </li>
-              <li className="flex flex-row justify-between items-center px-3">
+              <li className="flex flex-row justify-between items-center">
                 <label htmlFor="keyboard" className="cursor-pointer">
                   Mobile/Tablet Keyboard
                 </label>
@@ -202,7 +205,7 @@ export default function Sidebar() {
                   required
                 />
               </li>
-              <li className="flex flex-row justify-between items-center px-3">
+              <li className="flex flex-row justify-between items-center">
                 <label htmlFor="stabilizer" className="cursor-pointer">
                   Gimbal Stabilizer
                 </label>
@@ -219,36 +222,150 @@ export default function Sidebar() {
           </form>
         </div>
       </div>
-      <div className="mt-3 shadow-md">
-        <h4 className="px-3">Color</h4>
-        <div className=" bg-slate-200 mt-3">
+      <div className="mt-5 pb-3 shadow-md">
+        <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">Condition</h4>
+        <div className="mt-3 dark:divide-gray-400">
+          <form>
+            <ul className="max-w-md divide-y divide-gray-200 px-3">
+              <li className="flex flex-row justify-between items-center">
+                <label htmlFor="any" className="cursor-pointer">
+                  Any
+                </label>
+                <input
+                  type="checkbox"
+                  name=""
+                  id="any"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+              </li>
+              <li className="flex flex-row justify-between items-center">
+                <label htmlFor="brand_new" className="cursor-pointer">
+                  Brand New
+                </label>
+                <input
+                  type="checkbox"
+                  name=""
+                  id="brand_new"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+              </li>
+              <li className="flex flex-row justify-between items-center">
+                <label htmlFor="refur" className="cursor-pointer">
+                  Refurbished
+                </label>
+                <input
+                  type="checkbox"
+                  name=""
+                  id="refur"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+              </li>
+              <li className="flex flex-row justify-between items-center">
+                <label htmlFor="old" className="cursor-pointer">
+                  Old
+                </label>
+                <input
+                  type="checkbox"
+                  name=""
+                  id="old"
+                  value=""
+                  className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required
+                />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+      <div className="mt-5 pb-3 shadow-md">
+        <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">Color</h4>
+        <div className="mt-3 dark:divide-gray-400 px-3">
           <form>
             <div className="flex flex-wrap">
-              <a href="#!">
-                <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">
-                  Black
-                </span>
-              </a>
-              <a href="#!">
-                <span className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">
-                  Red
-                </span>
-              </a>
-              <a href="#!">
-                <span className="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">
-                  Yellow
-                </span>
-              </a>
-              <a href="#!">
-                <span className="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">
-                  Purple
-                </span>
-              </a>
-              <a href="#!">
-                <span className="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">
-                  Pink
-                </span>
-              </a>
+              <div>
+                <Link to="#!">
+                  <span className="bg-gray-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-white">
+                    Black
+                  </span>
+                </Link>
+              </div>
+              <div>
+                <Link to="#!">
+                  <span className="bg-red-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-white">
+                    Red
+                  </span>
+                </Link>
+              </div>
+              <div>
+                <Link to="#!">
+                  <span className="bg-yellow-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-white">
+                    Yellow
+                  </span>
+                </Link>
+              </div>
+              <div>
+                <Link href="#!">
+                  <span className="bg-purple-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-white">
+                    Purple
+                  </span>
+                </Link>
+              </div>
+              <div>
+                <Link to="#!">
+                  <span className="bg-pink-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-white">
+                    Pink
+                  </span>
+                </Link>
+              </div>
+              <div>
+                <Link to="#">
+                  <span className="bg-stone-500 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-stone-500 dark:text-white">
+                    Titanium
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div className="mt-5 pb-3 shadow-md">
+        <h4 className="p-2 rounded-t-xl bg-blue-700 text-white">Storage</h4>
+        <div className="mt-3 dark:divide-gray-400 px-3">
+          <form>
+            <div className="flex flex-wrap">
+              <div>
+                <Link to="#!">
+                  <span className="bg-gray-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-white">
+                    32GB
+                  </span>
+                </Link>
+                <Link to="#!">
+                  <span className="bg-gray-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-white">
+                    64GB
+                  </span>
+                </Link>
+                <Link to="#!">
+                  <span className="bg-gray-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-white">
+                    128GB
+                  </span>
+                </Link>
+                <Link to="#!">
+                  <span className="bg-gray-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-white">
+                    512GB
+                  </span>
+                </Link>
+                <Link to="#!">
+                  <span className="bg-gray-100 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-white">
+                    1TB
+                  </span>
+                </Link>
+              </div>
             </div>
           </form>
         </div>

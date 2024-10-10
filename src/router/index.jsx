@@ -6,6 +6,7 @@ import Login from "../pages/Login";
 import About from "../pages/About";
 import Profile from "../pages/Profile";
 import MyCart from "../pages/MyCart";
+import ProductFilter from "../pages/ProductFilter";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/shopping_app/profile",
         element: <Profile />
+      },
+      {
+        path: "/shopping_app/product-filter",
+        element: <ProductFilter />
       }
     ]
   }
